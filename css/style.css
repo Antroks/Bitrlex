@@ -183,3 +183,159 @@ body {
 }
 
 /* ********************************************* Skills block *********************************************/
+
+.skills {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.skills .text-h2 {
+    margin-bottom: 94px;
+}
+.skills__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-template-areas:
+        "speaking writing reading"
+        "speaking listening listening";
+
+}
+.skills__grid-item {
+    padding-top: 35px;
+    width: 435px;
+    height: 532px;
+    background-color: #F5F5F5;
+}
+
+.skills__grid-item img {
+    margin-left: 22px;
+}
+
+.skills__grid-item .text-h3 {
+    margin: 0;
+    margin-left: 43px; 
+    margin-top: 14px;
+    margin-bottom: 21px;   
+}
+.skills__grid-item .text-p {
+    width: 341px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 43px;
+    margin-bottom: 38px; 
+    line-height: 1.5em;
+}
+.skiils-p {
+}
+
+.skills__grid-item .btn {
+    margin-left: 43px;
+    width: 229px;
+    padding: 15px 57px;
+}
+
+.skills__speaking {
+    grid-area: speaking;
+    height: 894px;
+}
+
+
+/*****skills-writing****/
+.skills-writing {
+    grid-area: writing;
+    padding: 0;
+    position: relative;
+}
+
+.skills-writing .text-h3 {
+    margin-top: 268px;
+    margin-left: 38px;
+    margin-bottom: 8px;
+}
+
+.skills-writing .img-writing {
+    position: absolute;
+    left: 96px;
+    top: -3px;
+
+}
+
+.skills-writing .text-p {
+    margin-left: 38px;
+    margin-bottom: 32px;
+}
+
+.skills-writing .btn {
+    margin-left: 38px;
+    padding: 15px 52px;
+    width: 220px;
+}
+
+
+
+/*****skills-reading****/
+.skills-reading {
+    grid-area: reading;
+    position: relative;
+    padding-top: 0;
+}
+
+.skills-reading .text-h3 {
+    /* margin-top: 17px;
+    margin-bottom: 2px;
+    margin-left: 33px; */
+
+    margin-top: 271px;
+    margin-left: 33px;
+    margin-bottom: 2px;
+}
+
+.skills-reading .text-p {
+    margin-left: 35px;
+    width: 354px;
+    margin-bottom: 34px;
+}
+
+.skills-reading .btn {
+    margin-left: 34px;
+    padding: 15px 52px;
+    width: 222px;
+}
+
+.skills-reading img {
+    margin: 0;
+    position: absolute;
+    left: -6px;
+    top: 9px;
+
+}
+
+/*****skills-listening****/
+.skills-listening {
+    padding-top: 44px;
+    grid-area: listening;
+    width: 885px;
+    height: 343px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-listening .text-h3 {
+    margin-bottom: 11px;
+}
+
+.skills-listening .text-p {
+    margin-bottom: 26px;
+}
+
+.skills-listening .btn {
+    margin-left: 39px;
+    padding: 15px 52px;
+    width: 220px;
+}
+
+.skills-listening img {
+    height: 255px;
+    width: 382px;
+    margin-right: 29px;
+}
