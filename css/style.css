@@ -119,7 +119,7 @@ body {
 
 .header__flex .btn {
     margin-top: 12px;
-    padding: 16px 47px;
+    padding: 16px 50px;
     background-color: #fff;
     border: 1px solid #000;
     color: #000;
@@ -163,7 +163,7 @@ body {
 }
 
 .language-btn {
-    padding: 28px 116px;
+    padding: 28px 117px;
     border: 1px solid #000;
     width: 440px;
     height: 118px;
@@ -179,17 +179,18 @@ body {
 }
 
 .language-img {
-    margin-left: 2px;
+    margin-left: 163px;
 }
 
 /* ********************************************* Skills block *********************************************/
 
 .skills {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 126px;
 }
 .skills .text-h2 {
-    margin-bottom: 94px;
+    margin-bottom: 95px;
+    margin-top: 2px;
 }
 .skills__grid {
     display: grid;
@@ -201,6 +202,7 @@ body {
 
 }
 .skills__grid-item {
+    border-radius: 10px;
     padding-top: 35px;
     width: 435px;
     height: 532px;
@@ -338,4 +340,136 @@ body {
     height: 255px;
     width: 382px;
     margin-right: 29px;
+}
+
+/* ********************************************* About block *********************************************/
+
+.about {
+    padding-top: 126px;
+    padding-bottom: 94px;
+}
+.about__flex {
+    display: flex;
+    justify-content: space-between;
+    /* padding-left: 5px; */
+}
+.about__flex-item {
+    margin-top: 30px;
+    
+}
+.about .text-h2 {
+    text-align: left;
+    margin-bottom: 23px;
+    margin-left: 5px;
+}
+.about .text-p {
+    width: 635px;
+    margin-bottom: 55px;
+    margin-left: 5px;
+}
+.about-p {
+}
+
+
+.about__flex-count {
+    display: flex;
+    justify-content: space-between;
+    gap: 1px;
+    align-items: center;
+    margin-left: 2px;
+
+}
+
+.about img {
+    height: 500px;
+    width: 500px;
+    margin-right: 14px;
+}
+
+.block-coutn {
+    text-align: center;
+    width: 100px;   
+    margin-right: 132px;
+}
+
+.block-coutn .text-h3 {
+    font-weight: 600;
+    font-size: 48px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.block-coutn .text-p {
+    width: 100px;
+    margin-left: 0px;
+}
+
+
+.block-coutn:nth-child(2) {
+    margin-right: 75px;
+}
+
+.block-coutn:nth-child(2) .text-p {
+    margin-left: 2px;
+}
+
+
+
+.block-coutn:nth-child(3) {
+    width: 205px;   
+}
+.block-coutn:nth-child(3) .text-h3 {
+    margin-bottom: 13px;
+}
+
+.block-coutn:nth-child(3) .text-p {
+    width: 205px;
+    margin-left: 9px;
+}
+
+/* ********************************************* Pricing block *********************************************/
+.pricing {
+    padding-top: 89px;
+    padding-bottom: 145px;
+}
+
+.pricing .text-h2 {
+    margin-bottom: 57px;
+}
+.pricing__flex {
+    display: flex;
+    justify-content: space-between;
+}
+.pricing__flex-item {
+}
+.pricing__flex-item .text-h3 {
+    margin: 0;
+}
+
+.pricing__flex-item .text-p {
+    height: 90px;
+    width: 420px;
+    margin-bottom: 29px;
+}
+.pricing__month {
+    padding-left: 30px;
+    height: 45px;
+    width: 240px;
+    background-color: #eee;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    
+    
+ 
+
+}
+.price {
+    color: #263238;
+    font-size: 30px;
+    font-weight: 400;
+}
+.price-lable {
+    color: #263238;
+    font-size: 18px;
+    font-weight: 400;
 }
