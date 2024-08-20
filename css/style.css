@@ -68,7 +68,7 @@ body {
     cursor: pointer;
     
 }
-/* ********************************************* Main block *********************************************/
+/* ********************************************* Main CSS *********************************************/
 
 
 
@@ -233,8 +233,18 @@ body {
 .skills__grid-item .btn {
     margin-left: 43px;
     width: 229px;
-    padding: 15px 57px;
+    padding: 13px 55px;
+    border: 1px solid #000;
 }
+
+.skills__grid-item .btn:hover {
+    color: #263238;
+    background-color: #fff;
+    transition: 0.6s;
+}
+
+
+
 
 .skills__speaking {
     grid-area: speaking;
@@ -269,10 +279,10 @@ body {
 
 .skills-writing .btn {
     margin-left: 38px;
-    padding: 15px 52px;
+    padding: 13px 50px;
     width: 220px;
+    border: 1px solid #000;
 }
-
 
 
 /*****skills-reading****/
@@ -300,9 +310,11 @@ body {
 
 .skills-reading .btn {
     margin-left: 34px;
-    padding: 15px 52px;
+    padding: 13px 50px;
     width: 222px;
+    border: 1px solid #000;
 }
+
 
 .skills-reading img {
     margin: 0;
@@ -332,9 +344,11 @@ body {
 
 .skills-listening .btn {
     margin-left: 39px;
-    padding: 15px 52px;
+    padding: 13px 50px;
     width: 220px;
+    border: 1px solid #000;
 }
+
 
 .skills-listening img {
     height: 255px;
@@ -527,4 +541,115 @@ body {
     padding-bottom: 4px;
 }
 
+/* ********************************************* Contact block *********************************************/
+.contact {
+    padding-top: 113px;
+    padding-bottom: 133px;
+}
 
+.contact .container {
+    max-width: 1375px;
+}
+.contact__flex {
+    display: flex;
+    justify-content: space-between;
+}
+.contact__item {
+    margin-right: 37px;
+}
+
+.contact-h2 {
+    margin: 0;
+    margin-top: 33px;
+    margin-bottom: 36px;
+    text-align: left;
+}
+
+.contact-p {
+    margin-bottom: 52px;
+}
+.contact-form {
+    display: flex;
+}
+
+input {
+    width: 450px;
+    height: 80px;
+    border: 1px solid #8F95A5;
+    border-radius: 10px;
+    padding: 26px 0 29px 34px;
+}
+
+input::placeholder {
+    color: #8F95A5;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+input {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contact-form .btn {
+    width: 265px;
+    height: 80px;
+    margin-left: 12px;
+    padding: 22px 81px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.contact-form .btn:hover {
+    color: #263238;
+    background-color: #fff;
+    transition: 0.6s;
+}
+
+/* ********************************************* Footer block *********************************************/
+
+.footer {
+    padding-top: 26px;
+    padding-bottom: 58px;
+    border-top: 1px solid #c4c4c4;
+}
+
+
+
+.footer__flex {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding-left: 7px;
+}
+.footer__flex img {
+    height: 31px;
+    width: 106px;
+}
+
+.footer-nav {
+    margin-top: 15px;
+    display: flex;
+    gap: 5px;
+}
+
+.footer-nav li {
+    list-style-type: none;
+}
+
+
+
+.footer-nav .circle::before {
+    content: "•";
+    font-size: 24px;
+    display: inline-block;
+    width: 0.5em;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+    
+}
