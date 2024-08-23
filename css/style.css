@@ -1154,11 +1154,12 @@ input {
 
     .footer__flex {
         padding-left: 11px;
+        padding-right: 11px;
     }
 
     .footer-nav {
         margin-top: 20px;
-        gap: 8px;
+        gap: 6px;
     }
 
     .footer-nav a {
@@ -1167,7 +1168,7 @@ input {
 
     .footer-nav .circle::before {
         font-size: 11px;
-        width: 0.5em;
+        width: 0.1em;
         margin-right: 2px;
     }
 }
