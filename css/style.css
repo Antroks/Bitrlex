@@ -1505,6 +1505,7 @@ input {
     /**********Pricing block************/
     .pricing {
         padding-top: 47px;
+        padding-bottom: 44px;
     }
 
     .pricing__flex-item {
@@ -1600,6 +1601,73 @@ input {
     .pricing__flex-item:nth-child(3) .pricing__month {
         margin-left: 27px;
     }
+
+    /**********Contact block************/
+    .contact {
+        padding-top: 25px;
+        padding-bottom: 113px;
+    }
+
+    .contact__flex {
+        gap: 19px;
+    }
+    .contact img {
+        height: 210px;
+        width: 233px;
+        margin-left: 26px;
+        margin-top: 24px;
+    }
+
+    .contact-p {
+        font-size: 14px;
+        margin-left: 19px;
+        width: 390px;
+        margin-bottom: 24px;
+    }
+
+    .contact .text-h2 {
+        margin-top: 6px;
+        line-height: 60px;
+        margin-bottom: 0px;
+    }
+    input {
+        margin-left: 18px;
+        height: 50px;
+        width: 284px;
+        border-radius: 5px;
+        font-size: 12px;
+        padding: 17px 0 15px 20px;
+        outline: none;
+    }
+
+    .contact .btn {
+        border-radius: 5px;
+        height: 50px;
+        width: 146px;
+        margin-left: 4px;
+        font-size: 13px;
+        padding: 16px 39px;
+    }
+
+    /**********Footer block************/
+    .footer__flex {
+        margin-top: 10px;
+    }
+
+    .footer-nav {
+        margin-top: 16px;
+        gap: 3px;
+    }
+    .footer-nav a {
+        font-size: 13px;
+    }
+
+    .footer-nav .circle::before {
+        font-size: 11px;
+        width: 0.1em;
+        margin-right: 5px;
+    }
+  
 }
 
 
