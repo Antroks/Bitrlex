@@ -1496,7 +1496,7 @@ input {
     }
     .block-coutn:nth-child(3) .text-h3 {
         margin: 0;
-        margin-bottom: 32px;
+        margin-bottom: 25px;
     }
     .block-coutn:nth-child(3) .text-p {
         margin: 0;
@@ -1507,5 +1507,104 @@ input {
         padding-top: 47px;
     }
 
+    .pricing__flex-item {
+        position: relative;
+    }
+    .online {
+        position: absolute;
+        height: 197px;
+        width: 197px;
+        margin-bottom: 25px;
+        top: 10px;
+        left: -28px;
+        
+    }
+
+    .lesson {
+        height: 168px;
+        width: 219px;
+        margin-top: 52px;
+        margin-left: 5px;
+        margin-bottom: 17px;
+    }
+
+    .webinar {
+        height: 210px;
+        width: 210px;
+        margin-top: 20px;
+        margin-left: 27px;
+        margin-bottom: 6px;
+      
+    }
+
+    .pricing__flex-item .text-h3 {
+        width: 177px;
+        line-height: 28px;
+        margin-bottom: 13px;
+    }
+
+    .pricing__flex-item .text-p {
+        font-size: 14px;
+    }
+
+    .pricing__flex-item:nth-child(1) .text-h3 {
+        margin-top: 243px;
+        margin-bottom: 16px;
+    }
+    .pricing__flex-item:nth-child(1) .text-p {
+        width: 200px;
+        margin-left: 10px;
+    }
+
+    .pricing__flex-item:nth-child(2) .text-h3 {
+        margin-left: 10px;
+        margin-bottom: 14px;
+    }
+
+    .pricing__flex-item:nth-child(2) .text-p {
+        margin-left: 14px;
+        width: 210px;
+        margin-bottom: 17px;
+        
+    }
+
+    .pricing__flex-item:nth-child(3) .text-h3 {
+        margin-left: 27px;
+        line-height: 28px;
+        width: 164px;
+        margin-bottom: 9px;
+    }
+
+    .pricing__flex-item:nth-child(3) .text-p {
+        margin-left: 27px;
+        margin-bottom: 23px;
+        width: 225px;
+    }
+
+    .pricing__flex-item:nth-child(1) .pricing__month {
+
+        padding-left: 8px;
+        height: 45px;
+        margin-left: 11px;
+        padding-left: 9px;
+        padding-right: 15px;
+
+    }
+
+    .pricing__flex-item:nth-child(2) .pricing__month {
+        margin-left: 11px;
+        padding-left: 11px;
+        padding-right: 19px;
+    }
+
+    .pricing__flex-item:nth-child(3) .pricing__month {
+        margin-left: 27px;
+    }
 }
+
+
+
+
+        
+
 
