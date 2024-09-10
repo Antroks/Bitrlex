@@ -2048,6 +2048,7 @@ input {
     /**********Pricing block************/
     .pricing {
         padding-top: 78px;
+        padding-bottom: 100px;
     }
 
     .pricing__flex {
@@ -2067,7 +2068,7 @@ input {
     .price {
         font-size: 22px;
     }
-}
+
 
     .online {
         height: 291px;
@@ -2170,8 +2171,99 @@ input {
         padding-right: 7px;
         margin-left: 104px;
     }
-    
 
+    /**********Contact block************/
+    
+    .contact {
+        padding-top: 55px;
+        padding-bottom: 143px;
+    }
+
+    .contact .container {
+        max-width: 510px;
+    }
+    .contact__flex {
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .contact img {
+        height: 322px;
+        width: 358px;
+        margin-top: 169px;
+        margin-left: 13px;
+        margin-bottom: 15px;
+        
+    }
+
+    .contact .text-h2 {
+        position: absolute;
+        top: 41px;
+        left: 47%;
+        transform: translate(-50%, -50%);
+    }
+
+    .contact__item {
+        margin-right: 0;
+    }
+
+    .contact-p {
+        width: 469px;
+        font-size: 16px;
+        font-weight: 400;  
+        margin: 0 auto;   
+        margin-bottom: 58px; 
+        
+    }
+
+    input {
+        position: relative;
+        height: 60px;
+        width: 330px;
+        border-radius: 10px;
+        margin-left: 12px;
+        margin-right: 192px;
+        font-size: 13px;
+        padding-left: 23px;
+    }
+
+    .contact .btn {
+        height: 60px;
+        width: 193px;
+        margin-left: 0;
+        position: absolute;
+        left: 319px;
+        font-size: 16px;
+        padding: 19px 42px;
+        border-radius: 10px;
+
+    }
+
+    .footer {
+        padding-bottom: 22px;
+    }
+
+    .footer__flex {
+        padding-left: 0px;
+        padding-right: 0;
+        padding-top: 15px;
+        margin-top: 0;
+    }
+
+    .footer-nav {
+        gap: 4px;
+        font-weight: 500;
+    }
+
+    .footer-nav a {
+        font-size: 12px;
+    }
+
+    .footer-nav .circle::before {
+        margin-right: 3px;
+    }
+}
 
 
     
