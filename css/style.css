@@ -2522,8 +2522,208 @@ input {
         margin-left: 13px;
 
     }  
+    /**********About block************/
+
+    .about {
+        padding-top: 32px;
+    }
+
+    .about img {
+        height: 283px;
+        width: 283px;
+        margin-top: 112px;
+        margin-right: 0px;
+        margin-left: 1px;
+    }
+
+    .about .about-p {
+        text-align: center;
+        font-size: 13px;
+        max-width: 296px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .about__flex-count {
+        flex-direction: column;
+        padding-left: 17px;
+        gap: 13px;
+    }
+
+    .block-coutn .about-p {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .block-coutn:nth-child(1) .text-h3, .block-coutn:nth-child(2) .text-h3 {
+        margin-bottom: 25px;
+    }
+
+    .block-coutn:nth-child(2) .text-h3 {
+        margin-right: 12px;
+        margin-bottom: 21px;
+    }
+
+    .block-coutn:nth-child(3) .text-h3 {
+        margin-top: 14px;
+        margin-right: 12px;
+        margin-bottom: 24px;
+        
+        
+    }
+    /**********Pricing block************/
+    .pricing {
+        padding-top: 57px;
+        padding-bottom: 0px;
+    }
+
+    .online {
+        height: 248px;
+        width: 248px;
+        margin-top: 41px;
+        margin-left: 32px;
+    }
+    .lesson {
+        height: 197px;
+        width: 257px;
+        margin-top: 56px;
+        margin-bottom: 7px;
+    }
+
+    .webinar {
+        height: 241px;
+        width: 241px;
+        margin-top: 64px;
+        margin-left: 39px;
+        margin-bottom: 0;
+    }
+    .pricing__flex-item .text-h3 {
+        font-size: 18px;
+        max-width: 227px;
+        text-align: center; 
+        
+    }
+
+    .pricing__flex-item:nth-child(1) .text-h3 {
+        margin-bottom: 14px;
+    }
+    .pricing__flex-item:nth-child(1) .text-p {
+        width: 294px;
+        text-align: center;
+        margin-bottom: 92px;
+      
+    }
+
+    .pricing__flex-item:nth-child(2) .text-h3 {
+        margin-left: 54px;
+    }
+
+    .pricing__flex-item:nth-child(2) .text-p {
+        text-align: center;
+        width: 313px;
+    }
+
+    .pricing__flex-item:nth-child(3) .text-h3 {
+        margin-left: 54px;
+        margin-bottom: 26px;
+    }
+
+    .pricing__flex-item:nth-child(3) .text-p {
+        text-align: center;
+        width: 298px;
+        margin-bottom: 78px;
+    }
+
+    .pricing__flex-item:nth-child(3) {
+        margin-right: 0;
+    }
+
+    .pricing__month {
+        width: 170px;
+    }
+
+    .price {
+        font-size: 18px;
+    }
+
+    .price-lable {
+        font-size: 14px;
+    }
+
+    .pricing__flex-item:nth-child(2) .pricing__month {
+        margin-left: 82px;
+    }
+
+    .pricing__flex-item:nth-child(3) .pricing__month {
+        width: 170px;
+        margin-left: 78px;
+    }
+    /**********Contact block************/
+
+    .contact {
+        padding-top: 58px;
+        padding-bottom: 60px;
+    }
+
+    .contact img {
+        height: 223px;
+        width: 248px;
+        margin-top: 128px;
+        margin-left: 22px;
+        margin-bottom: 24px;
+    }
+
+    .contact-p {
+        width: 259px;
+        margin-bottom: 27px;
+    }
+
+    .contact .btn {
+        position: relative;
+        left: 0;
+        width: 291px;
+        height: 55px;
+        padding: 14px 75px;
+    }
+    input {
+        margin: 0;
+        width: 291px;
+        margin-bottom: 18px;
+        height: 53px;
+    }
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+         
+    }
+    /**********Footer block************/
+    
+    .footer img {
+        height: 21px;
+        width: 68px;
+    }
+
+    .footer__flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-nav {
+        padding: 0;
+    }
+
 
 }
+
+  
+    
+
+
+       
+        
+
+
 
 
     
