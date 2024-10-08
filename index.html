@@ -12,9 +12,9 @@
     <script src='js/main.js'></script>
 </head>
 <body>
-    <div class="burger-list">
+    <div class="burger-list" id="modal">
         <img src="img/Britlex.png" alt="">
-        <div class="close">
+        <div class="close" onclick="closeModal()">
             <span class="close__line line-upper"></span>
             <span class="close__line line-lower"></span>
         </div>
@@ -27,6 +27,8 @@
             <li><a href="#">Services</a></li>
             <li><a href="#">Contact Us</a></li>
         </ul>
+
+        <a href="#" class="btn btn-menu">Lets's Talk</a>
     </div>
     <header class="header">
         
@@ -43,7 +45,7 @@
                         <li><a href="#">Contacts</a></li>
                     </ul>
                 </nav>
-                <a class="burger">
+                <a class="burger" onclick="openModal()">
                     <span class="burger__line"></span>
                     <span class="burger__line"></span>
                     <span class="burger__line"></span>
@@ -215,5 +217,11 @@
             </div>
         </div>
     </footer>
+    <div id="sidenav-overlay"></div>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    
+
+    
 </body>
 </html>
